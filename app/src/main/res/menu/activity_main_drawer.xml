@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_citas"
+            android:icon="@drawable/ic_menu_citas"
+            android:title="@string/menu_citas" />
+        <item
+            android:id="@+id/nav_pacientes"
+            android:icon="@drawable/ic_menu_pacientes"
+            android:title="@string/menu_pacientes" />
+        <item
+            android:id="@+id/nav_terapeutas"
+            android:icon="@drawable/ic_menu_terapeutas"
+            android:title="@string/menu_terapeutas" />
+        <item
+            android:id="@+id/nav_tratamientos"
+            android:icon="@drawable/ic_menu_tratamiento"
+            android:title="@string/menu_tratamientos" />
+        <item
+            android:id="@+id/nav_historiasclinicas"
+            android:icon="@drawable/ic_menu_historiaclinica"
+            android:title="@string/menu_historiasclinicas"/>
+        <item
+            android:id="@+id/nav_facturas"
+            android:icon="@drawable/ic_menu_facturas"
+            android:title="@string/menu_facturas"/>
+        <item
+            android:id="@+id/nav_usuarios"
+            android:icon="@drawable/ic_menu_usuarios"
+            android:title="@string/menu_usuarios"/>
+
+    </group>
+</menu>

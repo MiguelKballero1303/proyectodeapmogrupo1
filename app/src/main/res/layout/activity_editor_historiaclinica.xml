@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#E63D3D"
+    android:orientation="vertical"
+    android:padding="14dp"
+    tools:context=".ui.HistoriasClinicas.EditorActivity">
+
+    <Button
+        android:id="@+id/btn_fecha_creacion_historia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E44E4E"
+        android:text="Seleccionar Fecha de Creación de la Historia" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp">
+
+        <EditText
+            android:id="@+id/fecha_creacion_historia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha de Creación de la Historia"
+            android:inputType="none"
+            android:focusable="false"
+            android:clickable="true"
+            android:focusableInTouchMode="false" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/paciente_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:hint="Seleccione el Paciente" />
+
+    <Spinner
+        android:id="@+id/tratamiento_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:hint="Seleccione el Tratamiento" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp">
+
+        <EditText
+            android:id="@+id/diagnostico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Diagnóstico"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp">
+
+        <EditText
+            android:id="@+id/notas_sesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notas de Sesión"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_guardar_historia_clinica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E44E4E"
+        android:text="Guardar Historia Clínica" />
+
+</LinearLayout>

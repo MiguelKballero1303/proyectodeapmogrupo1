@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Proyecto_DEAPMO_Grupo_1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Camino hacia el bienestar</string>
+    <string name="nav_header_subtitle">camino.hacia.el.bienestar@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="item_option">
+        <item>Editar</item>
+        <item>Eliminar</item>
+        <item>Cancelar</item>
+    </string-array>
+    <string-array name="especialidades">
+        <item>Psicoterapia</item>
+        <item>Psicología</item>
+        <item>Terapia Cognitiva Conductual</item>
+        <item>Terapia de Lenguaje</item>
+    </string-array>
+    <string-array name="estados_cita">
+        <item>Confirmada</item>
+        <item>Pendiente</item>
+        <item>Cancelada</item>
+        <item>Reprogramada</item>
+        <item>Completada</item>
+    </string-array>
+    <string-array name="estados_factura">
+        <item>Pendiente de Pago</item>
+        <item>Pagado</item>
+        <item>Cancelado</item>
+    </string-array>
+    <string-array name="horarios_terapeuta">
+        <item>L-V 8:00 am a 2:00 pm</item>
+        <item>L-V 2:00 pm a 8:00 pm</item>
+    </string-array>
+    <string name="menu_citas">Citas</string>
+    <string name="menu_pacientes">Pacientes</string>
+    <string name="menu_terapeutas">Terapeutas</string>
+    <string name="menu_tratamientos">Tratamientos</string>
+    <string name="menu_historiasclinicas">Historias Clinicas</string>
+    <string name="menu_facturas">Facturas</string>
+    <string name="menu_usuarios">Usuarios</string>
+</resources>

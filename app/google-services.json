@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "609748486288",
+    "project_id": "proyectodeapmo",
+    "storage_bucket": "proyectodeapmo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609748486288:android:0008fd047256fb07b4b015",
+        "android_client_info": {
+          "package_name": "com.consultorio.psicologico.proyecto_deapmo_grupo_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr4ird_v7kNcMP_sROlxwGkSxfs_299vI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

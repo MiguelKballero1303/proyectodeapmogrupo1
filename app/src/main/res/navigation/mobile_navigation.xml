@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_citas">
+
+    <fragment
+        android:id="@+id/nav_citas"
+        android:name="com.consultorio.psicologico.proyecto_deapmo_grupo_1.ui.Citas.CitasFragment"
+        android:label="@string/menu_citas"
+        tools:layout="@layout/fragment_citas" />
+    <fragment
+        android:id="@+id/nav_pacientes"
+        android:name="com.consultorio.psicologico.proyecto_deapmo_grupo_1.ui.Pacientes.PacientesFragment"
+        android:label="@string/menu_pacientes"
+        tools:layout="@layout/fragment_pacientes" />
+
+    <fragment
+        android:id="@+id/nav_terapeutas"
+        android:name="com.consultorio.psicologico.proyecto_deapmo_grupo_1.ui.Terapeutas.TerapeutasFragment"
+        android:label="@string/menu_terapeutas"
+        tools:layout="@layout/fragment_terapeutas" />
+    <fragment
+        android:id="@+id/nav_tratamientos"
+        android:name="com.consultorio.psicologico.proyecto_deapmo_grupo_1.ui.Tratamientos.TratamientosFragment"
+        android:label="@string/menu_tratamientos"
+        tools:layout="@layout/fragment_pacientes" />
+    <fragment
+        android:id="@+id/nav_historiasclinicas"
+        android:name="com.consultorio.psicologico.proyecto_deapmo_grupo_1.ui.HistoriasClinicas.HistoriasClinicasFragment"
+        android:label="@string/menu_historiasclinicas"
+        tools:layout="@layout/fragment_historiasclinicas" />
+    <fragment
+        android:id="@+id/nav_facturas"
+        android:name="com.consultorio.psicologico.proyecto_deapmo_grupo_1.ui.Facturas.FacturasFragment"
+        android:label="@string/menu_facturas"
+        tools:layout="@layout/fragment_facturas" />
+    <fragment
+        android:id="@+id/nav_usuarios"
+        android:name="com.consultorio.psicologico.proyecto_deapmo_grupo_1.ui.Usuarios.UsuariosFragment"
+        android:label="@string/menu_usuarios"
+        tools:layout="@layout/fragment_usuarios" />
+</navigation>
